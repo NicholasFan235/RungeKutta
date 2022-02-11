@@ -6,8 +6,11 @@ See the examples folder for usage
 
 ## Documentation
 Documentation is built using Sphinx and Autodoc.
-Docs compile locally, using:
 ```console
 sphinx-build -b html docs/source docs/build
 ```
-However on readthedocs the autodoc sections are broken.
+
+## Examples
+lotka_volterra.ipynb gives a demonstration of using the ExplicitSolver class.
+
+benchmarking_methods.ipynb compares many different Explicit and Implicit methods on a simple euation.
