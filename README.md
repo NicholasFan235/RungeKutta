@@ -14,3 +14,5 @@ sphinx-build -b html docs/source docs/build
 lotka_volterra.ipynb gives a demonstration of using the ExplicitSolver class.
 
 benchmarking_methods.ipynb compares many different Explicit and Implicit methods on a simple euation.
+
+stiff.ipynb solves a stiff system using both explicit and implicit methods to show when implicit methods may be better suited.

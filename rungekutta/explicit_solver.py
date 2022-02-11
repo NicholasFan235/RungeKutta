@@ -9,6 +9,9 @@ class ExplicitSolver(rk.RKSolver):
     Weights and Nodes must have the same length (N).
     The Runge-Kutta matrix should be an NxN, lower triangular matrix.
 
+    This Solver can solve any equation of the form dy/dt = f(y,t).
+    The equation f(y,t) is the func that must be configured in the solver.
+
     :param weights: weight values in Butcher Tableau
     :type weights: array-like
     :param nodes: node values in Butcher Tablue
